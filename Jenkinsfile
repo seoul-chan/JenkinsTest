@@ -66,7 +66,7 @@ pipeline {
             dir ('./website'){  //디렉토리
             // website 폴더에 있는 파일을 S3에 업로드, 생성한 S3 Name을 입력
                 sh '''
-                aws s3 sync ./ s3://jenkinstest-20230104
+                aws s3 sync . s3://jenkinstest-20230104
                 '''
             }
           }
