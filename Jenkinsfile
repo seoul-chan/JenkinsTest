@@ -83,13 +83,13 @@ pipeline {
 
               }
 
-              failure {
-                  echo 'I failed :('
+              // failure {
+              //     echo 'I failed :('
 
-                  mail  to: 'kkchan9210@gmail.com',
-                        subject: "Failed Pipelinee",
-                        body: "Something is wrong with deploy frontend"
-              }
+              //     mail  to: 'kkchan9210@gmail.com',
+              //           subject: "Failed Pipelinee",
+              //           body: "Something is wrong with deploy frontend"
+              // }
           }
         }
         
