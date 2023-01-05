@@ -77,9 +77,9 @@ pipeline {
               success {
                   echo 'Successfully Cloned Repository'
 
-                  mail  to: 'kkchan9210@gmail.com',
-                        subject: "Deploy Frontend Success",
-                        body: "Successfully deployed frontend!"
+                  // mail  to: 'kkchan9210@gmail.com',
+                  //       subject: "Deploy Frontend Success",
+                  //       body: "Successfully deployed frontend!"
 
               }
 
